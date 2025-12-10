@@ -2,14 +2,12 @@ Here is a clean, punchy, and professional `README.md` for your GitHub repository
 
 You can copy and paste this directly into your GitHub.
 
------
+---
 
 # HiI'm
 
 > **Stop Talking. Start Walking.**
 > The first dating app that requires physical connection to unlock the destination.
-
- 
 
 ## 📖 About The Project
 
@@ -19,36 +17,36 @@ The core differentiator is the **"Tap-to-Unlock"** mechanic. Users do not know t
 
 ## ⚡ Key Features
 
-  * **🤖 AI Date Concierge:** Removes the "Where should we go?" conversation. The algorithm selects venues based on real-time inputs (Budget constraint + Interest parameters).
-  * **📲 NFC "Proof of Life" Unlock:** The venue remains hidden until both devices detect proximity via NFC/Bluetooth tap. This guarantees the date actually occurs and prevents flaking.
-  * **👻 Accountability Engine:** A unique monetization model that penalizes "ghosting" and "standing up" matches. Users have a limited strike allowance before monetization gates prevent further matching, incentivizing respectful behavior.
-  * **📍 Hyper-Local API:** Integration with maps and venue APIs to ensure the unlocked destination is within walking distance of the meeting point.
+- **🤖 AI Date Concierge:** Removes the "Where should we go?" conversation. The algorithm selects venues based on real-time inputs (Budget constraint + Interest parameters).
+- **📲 NFC "Proof of Life" Unlock:** The venue remains hidden until both devices detect proximity via NFC/Bluetooth tap. This guarantees the date actually occurs and prevents flaking.
+- **👻 Accountability Engine:** A unique monetization model that penalizes "ghosting" and "standing up" matches. Users have a limited strike allowance before monetization gates prevent further matching, incentivizing respectful behavior.
+- **📍 Hyper-Local API:** Integration with maps and venue APIs to ensure the unlocked destination is within walking distance of the meeting point.
 
 ## 🔄 User Flow
 
 1.  **Match:** Users match via standard profile parameters.
 2.  **Input:**
-      * *Male:* Sets the budget cap (e.g., $$-$$$$).
-      * *Female:* Sets the date preference (e.g., "Speakeasy," "Active," "Chill").
+    - _Male:_ Sets the budget cap (e.g., $$-$$$$).
+    - _Female:_ Sets the date preference (e.g., "Speakeasy," "Active," "Chill").
 3.  **The Meet Up:** The app designates a central public meeting point (landmark).
 4.  **The Tap:** Upon meeting, users tap phones.
 5.  **The Reveal:** The AI instantly reveals the booked venue nearby.
 
 ## 🛠 Tech Stack
 
-*(Update this section based on your actual build)*
+_(Update this section based on your actual build)_
 
-  * **Frontend:** React Native / Flutter / Swift
-  * **Backend:** Node.js / Python / Firebase
-  * **APIs:** Google Places API / Yelp Fusion API (for venue data)
-  * **Hardware Integration:** CoreNFC (iOS) / Android Beam
+- **Frontend:** React Native / Flutter / Swift
+- **Backend:** Node.js / Python / Firebase
+- **APIs:** Google Places API / Yelp Fusion API (for venue data)
+- **Hardware Integration:** CoreNFC (iOS) / Android Beam
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-  * Node.js (v14+)
-  * iOS Simulator / Android Emulator
+- Node.js (v14+)
+- iOS Simulator / Android Emulator
 
 ### Installation
 
@@ -62,8 +60,8 @@ The core differentiator is the **"Tap-to-Unlock"** mechanic. Users do not know t
     ```
 3.  Enter your API keys in `.env`
     ```js
-    GOOGLE_PLACES_API_KEY = 'ENTER YOUR KEY';
-    STRIPE_API_KEY = 'ENTER YOUR KEY';
+    GOOGLE_PLACES_API_KEY = "ENTER YOUR KEY";
+    STRIPE_API_KEY = "ENTER YOUR KEY";
     ```
 4.  Run the simulation
     ```sh
